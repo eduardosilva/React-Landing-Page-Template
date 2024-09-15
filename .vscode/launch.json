@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Yarn Task Globally",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "yarn",  // Use the globally installed yarn
+      "args": ["start"],
+      "console": "internalConsole"
+    }
+  ]
+}
